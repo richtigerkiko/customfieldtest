@@ -11,7 +11,7 @@ function are_you_eighteen_field( $checkout ) {
 
     echo '<div id="are_you_eighteen_field"><h2>' . __('Bist du 18?') . '</h2>';
 
-    woocommerce_form_field( 'my_field_name', array(
+    woocommerce_form_field( 'are_you_eighteen', array(
         'type'          => 'checkbox',
         'class'         => array('my-field-class form-row-wide'),
         'label'         => __('Hiermit bestätige ich, dass ich 18 bin'),
@@ -26,3 +26,4 @@ function are_you_eighteen_field( $checkout ) {
  */
 
 ?>
+
