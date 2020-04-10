@@ -1,5 +1,7 @@
+<?
+
 /**
- * Add this code to functions.php of used theme
+ * Add this code to functions.php of used theme (without <? ?>)
  * Add are you 18 field to checkout
  */
 
@@ -18,3 +20,9 @@ function are_you_eighteen_field( $checkout ) {
     echo '</div>';
 
 }
+
+/**
+ * Stop Copying Here!
+ */
+
+?>
